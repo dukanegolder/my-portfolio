@@ -45,6 +45,7 @@ main{
 main h2{
     border-right: 3px solid grey;
     width: 10rem;
+    color: green;
 }
 
 .page-section{
@@ -62,3 +63,25 @@ main p {
     width: 50vw;
 }
 
+.img{
+    width: 80%;
+    margin-top: 5%;
+}
+
+.flex-item{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    max-width: 50%;
+}
+
+#surf{
+    display: flex;
+    max-width: 180%;
+    margin-left: 100%;
+}
