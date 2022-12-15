@@ -15,10 +15,10 @@
         <h1>Dukes Portfolio</h1>
 
         <nav>
-            <a href="#about">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#contact">Contact Me</a>
-            <a href="#">Resume</a>
+            <a class="nav-text" href="#about">About Me</a>
+            <a class="nav-text" href="#work">Work</a>
+            <a class="nav-text" href="#contact">Contact Me</a>
+            <a class="nav-text" href="#">Resume</a>
         </nav>
     </header> 
 
@@ -30,28 +30,33 @@
 
     <main class="page-info">
 
-        <section class="page-section" id="about">      
+        <section class="page-section" id="about">
+            <div class="sidebar">      
             <h2>About Me</h2>
+            </div>
 
-            <div>
-                <p>
-                    Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter
-                    plaid direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard
-                    Carles you probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut
-                    paleo scenester
-                </p>
+            <div class="bio">
+                <div class="bio-text"> 
+                    <img class="bio-img" src="/assets/img/B8995F9A-4387-4AC3-9F1D-2F1F7151E30D_1_105_c.jpeg" alt="">   
+                    My name is Dukane Golder, but everyone calls me Duke. 
+                    I am from Rigby, Idaho where I currently live with my wife and dogs.
+                    I've always loved problem solving so I thought computer programming would be the perfect career path for me. 
+                    I am always excited for new opportunities to further my education and career.
+                </div>
             </div>
 
         </section>
         
         <section class="page-section" id="work">
+            <div class="sidebar">
             <h2>Work</h2>
+            </div>
             <div class="flex-container">
 
                 <a href="#" class="flex-item surf-report">
                   <div class="card">
                     <h3>Surf Report</h3>
-                    <span>MERN Stack</span>
+                    <div>MERN Stack</div>
                     <img src="/assets/img/02-portfolio-4.jpg" alt="Surfer looking at wave" id="surf">
                   </div>
                 </a>
@@ -59,13 +64,13 @@
                 <a href="#" class="flex-item led-wall react-calc">
                     <div class="card">
                     <h3>LED Wall</h3>
-                    <span>Node/IoT</span>
+                    <div>Node/IoT</div>
                     <img src="/assets/img/02-portfolio-1.jpg" alt="LED screen" class="img">
                     </div>
 
                     <div class="card">
                     <h3>Calculator</h3>
-                    <span>React/JavaScript/CSS</span>
+                    <div>React/JavaScript/CSS</div>
                     <img src="/assets/img/02-portfolio-2.jpg" alt="Calculator" class="img">
                     </div>
                 </a>
@@ -74,14 +79,14 @@
                 <a href="#" class="flex-item pastel-puzzles run-buddy">
                     <div class="card">
                     <h3>Pastel Puzzels</h3>
-                    <span>MERN Stack</span>
+                    <div>MERN Stack</div>
                     <img src="/assets/img/02-portfolio-3.jpg" alt="pink and blue background" class="img">
                     </div>
 
                     <div class="card">
                     <h3>Run Buddy</h3>
-                    <span>HTML/CSS</span>
-                    <img src="/assets/img/02-run-buddy.jpg" alt="" class="img">
+                    <div>HTML/CSS</div>
+                    <img src="/assets/img/02-run-buddy.jpg" alt="Landing page for run-buddy" class="img">
                   </div>
                 </a>
       
@@ -89,8 +94,10 @@
         </section>
 
         <section class="page-section" id="contact">
-          <h2>Contact Me</h2>
-            <div>
+          <div class="sidebar">
+            <h2>Contact Me</h2>
+        </div>
+            <div class="info">
     
                 <a href="tel:+12082701169">(208)-270-1169</a>
                 <a href="mailto:dukanegolder@gmail.com">dukanegolder@gmail.com</a>
