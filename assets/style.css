@@ -111,10 +111,11 @@ main p {
     color: rgba(80, 88, 80, 0.916);
 }
 
-#surf{
+#movie{
     display: flex;
     max-width: 180%;
     margin-left: 100%;
+    margin-top: 2%;
 }
 
 .info{
